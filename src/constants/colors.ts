@@ -1,0 +1,61 @@
+export const palette = {
+  primary: "#FF6600",
+  secondary: " #FFC700",
+  error: "#FF6565",
+  errorLight: "#FDE0E0",
+  success: "#027747",
+  successLight: "#027a4833",
+  links: "#007BFF",
+  white: "#FFFF",
+  grey: "#C5CDD2",
+  text: {
+    primary: "#322F2D",
+    secondary: "#667085",
+  },
+  bgTableHeading: "#F9FAFB",
+  placeHolder: "#a9a9a9",
+  neutral50: "#F7F8F9",
+  neutral100: "#61617C",
+  neutral200: "#D0D5DD",
+  neutral300: "#F9F9F9",
+  neutral400: "#A0ABBB",
+  neutral500: "#64748B",
+  neutral600: " #F9FAFB",
+  neutral700: "#dcdcdc",
+  neutral800: "#F5F5F5",
+
+  shades: {
+    green: {
+      shade1: "#027747",
+      shade2: "#12B76A",
+      shade3: "#ECFDF3",
+    },
+    yellow: {
+      shade1: "#FFC700",
+      shade2: "#F7D965",
+      shade3: "#F7EEC9",
+      shade4: "#FFC70033",
+    },
+    orange: {
+      shade1: "#FF6600",
+      shade2: "#F7914E",
+      shade3: "#F7DBC9",
+      shade4: "#F9F5FF",
+      shade5: "#FFFBF8",
+      shade6: "#FEE4E2",
+    },
+    blue: {
+      shade1: "#007BFF",
+      shade2: "#5BA7FB",
+      shade3: "#C6E0FB",
+      shade4: "#7F56D9",
+      shade5: "#CCE5FF",
+    },
+    black: {
+      shade1: "#1B1918",
+    },
+    red: {
+      shade1: "#D92D20",
+    },
+  },
+};

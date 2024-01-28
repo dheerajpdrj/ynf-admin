@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Inter", sans-serif;
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.p-1{
+  padding: 1rem;
+}
+.pb{
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+.rotate180{
+  transform: rotate(-180deg);
+  transition: transform 500ms ease-in-out;
+}

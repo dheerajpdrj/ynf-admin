@@ -1,0 +1,27 @@
+image: node:18.16.0
+stages:
+  - build
+  - deploy
+cache:
+  paths:
+    - node_modules/
+build_develop:
+  tags:
+    - gitlab-org
+  stage: build
+  only:
+    - develop_admin
+  script:
+    - bash 1.develop.deploy.sh
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 week
+deploy_develop:
+  tags:
+    - develop_server
+  stage: deploy
+  only:
+    - develop_admin
+  script:
+    - bash copy_artifact.sh dev
